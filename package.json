@@ -1,0 +1,33 @@
+{
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "description": "An app for saving your recipes to your browser's local storage.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html src/edit.html",
+    "build": "parcel build src/index.html src/edit.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "Thom Gusterson",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "recipe": "^0.1.2",
+    "state": "^0.2.0",
+    "uuid": "^3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgusterson/recipe-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tgusterson/recipe-app/issues"
+  },
+  "homepage": "https://github.com/tgusterson/recipe-app#readme"
+}
