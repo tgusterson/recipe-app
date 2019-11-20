@@ -144,9 +144,11 @@ recipeIngredientInputForm.addEventListener('change', e => {
 
 deleteRecipeButton.addEventListener('click', () => {
   const confirm = window.confirm('Are you sure you want to delete this recipe?')
-  if (confirm) {
+  if (confirm && window.location.hash) {
     recipes.splice(recipes.indexOf(currentRecipe), 1)
     saveRecipes()
+    window.location = './index.html'
+  } else if (confirm) {
     window.location = './index.html'
   }
 })
