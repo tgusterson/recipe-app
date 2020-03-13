@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# recipe-app
-=======
 # recipe-app
 
 This is my attempt at creating the recipe app idea suggested by Andrew Mead at the end of his Modern JavaScript Bootcamp course (see https://www.udemy.com/course/modern-javascript/).
@@ -39,4 +36,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Thanks to Andrew Mead for his JavaScript course (https://www.udemy.com/course/modern-javascript/). This app idea is a suggestion from him for people to use the skills learned from the course.
->>>>>>> 8fecaaa240f928e183f71406f9360bf7fa5ccbfb
